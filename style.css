@@ -1,0 +1,53 @@
+@media only screen and (max-width: 768px) {
+    .carousel-title {
+        font-size: 20px;
+    }
+
+    .main-card {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .title-text {
+        font-size: 16px;
+    }
+
+    .carousel-custom {
+        height: 450px;
+    }
+
+    .carousel-caption {
+        top: 30% 
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .title-text {
+        font-size: 13px;
+    }
+}
+.news__letter{
+    background-color: #FFFBF0;
+    /* height: 80px; */
+}
+
+.news__input{
+    border: none;
+    outline: none;
+    padding: 10px 45px 10px 20px;
+    border-radius: 5px;
+    box-shadow: inset 27px 27px 53px #c7c4bb,
+    inset -27px -27px 53px #ffffff;
+}
+.btn__custom{
+    padding: 13px 30px;
+    /* background-image: var(--btnBg); */
+    background-color: #FA804C;
+    border: none;
+    color: #fff;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    box-shadow:  20px 20px 28px #d1cec5,
+    -20px -20px 28px #ffffff;
+}

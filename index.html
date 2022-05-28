@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/4cbe1769e6.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light p-4">
+            <div class="container">
+                <a class="navbar-brand text-black fw-bold title-text" href="#">Bachelor life solution</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto d-flex align-items-center mb-2 mb-lg-0">
+                    <li class="nav-item fs-5">
+                    <a class="nav-link text-black fs-5" aria-current="page" href="#" >Home</a>
+                    </li>
+                    <li class="nav-item ">
+                    <a class="nav-link text-black fs-5" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-black fs-5" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fs-5" href="#">Subscribe</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </nav>
+    </header>
+    <!-- end nav bar -->
+
+<!-- carousel  -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner carousel-custom">
+        <div class="carousel-item carousel-custom active">
+        <img class="carousel-custom w-100" src="./images/banner.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-block d-md-block mb-4">
+            <h1 class="display-lg-3 fw-bold my-3 carousel-title">The perfect venue for your <br> next event</h1>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua <br>
+                dolor do amet sint. Velit officia consequat duis enim velit</p>
+                
+        <a target="_" href="https://asiahotel.com.bd/social-event/" class=""><button type="button" class="btn-lg text-primary btn btn-light rounded-3 mb-5"><span class="mx-4 fw-bold">Book Now</span></button> </a>  
+
+        </div>
+        </div>
+        <div class="carousel-item carousel-custom">
+        <img class="carousel-custom w-100" src="./images/my-img03.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption carousel-custom d-block d-md-block">
+            <h1 class="display-3 fw-bold my-3 carousel-title">The perfect venue for your <br> next event</h1>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua <br>
+                dolor do amet sint. Velit officia consequat duis enim velit</p> 
+            <a target="_" href="https://asiahotel.com.bd/social-event/" class=""><button type="button" class="btn-lg text-primary btn btn-light rounded-3 mb-5"><span class="mx-4 fw-bold">Book Now</span></button> </a> 
+        </div>
+        </div>
+        <div class="carousel-item carousel-custom">
+        <img  class="carousel-custom w-100" src="./images/my_img-01.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption carousel-custom d-block d-md-block">
+            <h1 class="display-3 fw-bold my-3 carousel-title">The perfect venue for your <br> next event</h1>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua <br>
+                dolor do amet sint. Velit officia consequat duis enim velit</p>  
+            <a target="_" href="https://asiahotel.com.bd/social-event/" class=""><button type="button" class="btn-lg text-primary btn btn-light rounded-3 mb-5"><span class="mx-4 fw-bold">Book Now</span></button> </a> 
+        </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- carousel end -->
+
+<!-- our packages -->
+<div class="container mb-5">
+
+    <div class="p_heading text-center" style="margin: 100px 0px 250px;">
+        <h1 class=" display-4 fw-bold">Our Package</h1>
+    </div>
+
+        <!-- toast -->
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" style="margin-left: 90%; margin-top: -6%;">
+            <div class="toast-header">
+                
+                <strong class="me-auto"><i class="fas fa-gift text-info"></i> <span class="ms-2">20% off on next booking</span></strong>
+        
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+        <!-- toast end -->
+    <!-- packages -->
+    <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 g-4">
+        <!-- first card -->
+        <div class="col-md-6 ">
+            <div class="card h-100 border-0">
+                <div class="card-body p-6">
+                    <h5 class="card-title fs-1 fw-bolder mb-4">$300</h5>
+                    <h5 class="card-text fs-1 fw-bolder mb-4">Business fair</h5>
+                    <p class="card-text text-muted fs-5">For most businesses event like book fair, craft fair.</p>
+
+                    <ul class="ps-0">
+                        <li class="list-unstyled fs-5 text-muted mb-2"><i class="far fa-check-circle text-primary me-2"></i></i>limited space access
+                        </li>
+                        <li class="list-unstyled fs-5 text-muted mb-2"><i class="far fa-check-circle text-primary me-2"></i></i>Security facility</li>
+                        <li class="list-unstyled fs-5 text-muted mb-2"><i class="far fa-check-circle text-primary me-2"></i></i>event support</li>
+                        <li class="list-unstyled fs-5 text-muted mb-2"><i class="far fa-check-circle text-primary me-2"></i></i>Decoration design
+                        </li> 
+                        <li class="list-unstyled fs-5 text-muted mb-4"><i class="far fa-check-circle text-primary me-2"></i></i>Per day bill</li>
+                    </ul>
+                    <a href="#" class=""><button type="button" class="btn-lg text-primary rounded-pill border-0 w-100 p-2" style="background-color: rgb(253, 244, 250);"><span class=" fw-bold">Choose plan</span></button> </a> 
+                </div>
+            </div>
+        </div>
+        <!-- second card -->
+        <div class="col-md-6 ">
+            <div class="card h-100 border-0">
+                <div class="card-body p-6">
+                    <h5 class="card-title fs-1 fw-bolder mb-4">$500
+                    </h5>
+                    <h5 class="card-text fs-1 fw-bolder mb-4">wedding basic
+                    </h5>
+                    <p class="card-text text-muted fs-5">For most businesses event like book fair, craft fair.</p>
+
+                    <ul class="ps-0">
+                        <li class="list-unstyled fs-5 text-muted mb-2"><i class="far fa-check-circle text-primary me-2"></i></i>limited space access
+                        </li>
+                        <li class="list-unstyled fs-5 text-muted mb-2"><i class="far fa-check-circle text-primary me-2"></i></i>Security facility</li>
+                        <li class="list-unstyled fs-5 text-muted mb-2"><i class="far fa-check-circle text-primary me-2"></i></i>event support</li>
+                        <li class="list-unstyled fs-5 text-muted mb-2"><i class="far fa-check-circle text-primary me-2"></i></i>Decoration design
+                        </li> 
+                        <li class="list-unstyled fs-5 text-muted mb-4"><i class="far fa-check-circle text-primary me-2"></i></i>Per day bill</li>
+                    </ul>
+                    <a href="#" class=""><button type="button" class="btn-lg text-primary rounded-pill border-0 w-100 p-2" style="background-color: rgb(253, 244, 250);"><span class=" fw-bold">Choose plan</span></button> </a> 
+                </div>
+            </div>
+        </div>
+        <!-- third card -->
+        <div class="col-md-6 ">
+            <div class="card h-100 shadow-lg p-2 main-card" style="background-color: rgb(63, 135, 245);position: relative;top: -100px;border-radius: 30px;">
+                    <span class="position-absolute top-0 translate-middle badge rounded-pill bg-danger p-2" style="right: 10px;">
+                    Hot
+                    </span>
+                <div class="card-body " >
+                    <h5 class="card-title fs-1 fw-bolder mb-4 text-white">$800</h5>
+                    <h5 class="card-text fs-1 fw-bolder mb-4 text-white">Wedding plus</h5>
+                    <p class="card-text  fs-5 text-white">For most weddings with
+                        premium plans</p>
+
+                    <ul class="ps-0">
+                        <li class="list-unstyled fs-5 mb-2 text-white"><i class="far fa-check-circle text-white me-2"></i></i>limited space access
+                        </li>
+                        <li class="list-unstyled fs-5 text-white mb-2"><i class="far fa-check-circle text-primary me-2 text-white"></i></i>Security facility</li>
+                        <li class="list-unstyled fs-5 text-white mb-2"><i class="far fa-check-circle text-primary me-2 text-white"></i></i>event support</li>
+                        <li class="list-unstyled fs-5 text-white mb-2"><i class="far fa-check-circle text-primary me-2 text-white"></i></i>Decoration design
+                        </li> 
+                        <li class="list-unstyled fs-5 text-white mb-4"><i class="far fa-check-circle text-primary me-2 text-white"></i></i>Per day bill</li>
+                    </ul>
+                    <a href="#" class=""><button type="button" class="btn-lg text-primary rounded-pill border-0 w-100 p-2" style="background-color: rgb(253, 244, 250);"><span class=" fw-bold">Choose plan</span></button> </a> 
+                </div>
+            </div>
+        </div>
+        <!-- fourth card -->
+        <div class="col-md-6 ">
+            <div class="card h-100 border-0">
+                <div class="card-body p-6">
+                    <h5 class="card-title fs-1 fw-bolder mb-4">$1200</h5>
+                    <h5 class="card-text fs-1 fw-bolder mb-4">Corporate event</h5>
+                    <p class="card-text text-muted fs-5">For most businesses event like book fair, craft fair.</p>
+
+                    <ul class="ps-0">
+                        <li class="list-unstyled fs-5 text-muted mb-2"><i class="far fa-check-circle text-primary me-2"></i></i>limited space access
+                        </li>
+                        <li class="list-unstyled fs-5 text-muted mb-2"><i class="far fa-check-circle text-primary me-2"></i></i>Security facility</li>
+                        <li class="list-unstyled fs-5 text-muted mb-2"><i class="far fa-check-circle text-primary me-2"></i></i>event support</li>
+                        <li class="list-unstyled fs-5 text-muted mb-2"><i class="far fa-check-circle text-primary me-2"></i></i>Decoration design
+                        </li> 
+                        <li class="list-unstyled fs-5 text-muted mb-4"><i class="far fa-check-circle text-primary me-2"></i></i>Per day bill</li>
+                    </ul>
+                    <a href="#" class=""><button type="button" class="btn-lg text-primary rounded-pill border-0 w-100 p-2" style="background-color: rgb(253, 244, 250);"><span class=" fw-bold">Choose plan</span></button> </a> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h1 class=" display-4 fw-bold text-center my-5">Frequently Asked Questions</h1>
+<div class="container mb-5">
+    
+    <div class="row g-5 d-flex flex-lg-row flex-column-reverse">
+        
+        <div class="col-12 col-lg-6">
+            <div class="accordian">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                        <button  class="accordion-button fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What are the differences between a conference center and a convention center?
+                        </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The main difference is that a conference center usually has lodging attached to it, and offers a higher level of service for its events than a convention center. A conference center typically has several types of meeting rooms, whereas a convention center will typically consist only of exhibition halls.
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What is convention hotel meaning?
+                        </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Convention hotel means a hotel with 50 rooms or greater that provides facilities and services designed to host meetings or gatherings within or upon the same premises of the hotel or within a facility (for example: convention centers, auditoriums, outdoor venues, etc.) that is in close proximity of the hotel.
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What is an example of a convention?
+                        </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The definition of a convention is a meeting or assembly of people who share a common interest or a convention is a method, practice, rule or custom. An example of convention is a national meeting of English teachers. An example of convention is a rule about comma placement. ... The convening of a formal meeting.
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            What is the importance of holding a convention and exhibition?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            As holding international large-scale conventions and exhibitions will attract international guests and will boost the economy locally, the value-added brought by the events can also influence tourism industry with the service quality, and the influence will take effect even after the event is over
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6">
+            <img class="img-fluid w-100" src="./images/people.png" alt="">
+        </div>
+    </div>
+</div>
+
+<h1 class=" display-4 fw-bold text-center my-5">Contact Us</h1>
+<div class="container mb-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-6">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Subject</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+                <button type="button" class="btn btn-primary">Send</button>
+            </div>
+            
+    </div>
+</div>
+<section>
+    <div class="news__letter my-5 py-2">
+        <div class="container h-100">
+            <h5 class="news__title text-center py-2">Subscribe Us for Next Offer</h5>
+            <div class="news__form d-flex justify-content-center pb-2">
+                <input class="news__input " type="text" placeholder="Yes@email.com">
+                <button class="btn btn__custom news__btn">Subscribe</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="" style="background-color: rgb(11, 13, 23);">
+    <div class="container p-5">
+        <div class="row d-flex  align-items-center">
+            <div class="col-auto me-auto">
+                <div class="copyright">
+                    <p class="text-light"><span>&copy;</span>2022 bike. All rights reserved</p>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="all_App">
+                    <h4 class="text-white mb-3">Get the App</h4>
+                    <div class="apple_google ">
+                        <div class="apple d-flex align-items-center border rounded-3 mb-3 ps-2 pe-2">
+                            <div class="Apple_icon">
+                                <a target="_" href="https://www.apple.com/app-store/"><i class="fab fa-apple text-white fs-3"></i></a>
+                            </div>
+                            <div class="apple_txt ms-2">
+                                <small class="text-white" style="font-size: 10px;">Download on the</small>
+                                <h6 class="text-white">App Store</h6>
+                            </div>
+                        </div>
+                        <!-- play store -->
+                        <div class="google d-flex align-items-center border rounded-3 ps-2 pe-2">
+                            <div class="google_icon">
+                                <a target="_" href="https://play.google.com/store/apps?hl=en&gl=US"><i class="fab fa-google-play text-white fs-3"></i></a>
+                            </div>
+                            <div class="google_txt ms-2">
+                                <small class="text-white" style="font-size: 10px;">GET IT ON</small>
+                                <h6 class="text-white">Google Play</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+    <!-- Bundle js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script>
+        window.onload = (e) => {
+            e.preventDefault();
+            let myToast = document.querySelector('.toast');
+            let bsToast = new bootstrap.Toast(myToast);
+            bsToast.show();
+        }
+    </script>
+</body>
+</html>
